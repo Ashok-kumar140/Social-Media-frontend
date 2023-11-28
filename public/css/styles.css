@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #eff0f2;
+}
+.clip{
+    /* clip-path: polygon(0 0,100% 0,100% 100%,0 100%); */
+}
+.suggestion {
+    color: rgb(93 87 87);
+    font-weight: 600;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.dropdown-menu {
+    transform: translate3d(-80px, 39px, 0px) !important;
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+
+.dropdown-item {
+    background-color: #fef2f2 !important;
+    color: black !important;
+
+}
+
+.active {
+    background-color: #292b46 !important;
+    color: white !important;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px !important;
+}
+.userprofile{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px !important; */
+}
+.post-box{
+    justify-content: space-around;
+}
+.username{
+    padding-top: 100px !important;
+    /* padding-bottom: 10px; */
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.list {
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+    margin-bottom: 50px !important;
+}
+
+/*------------ Login container ------------*/
+.box-area {
+    width: 930px;
+}
+
+.img-login {
+    background-image: url('/images/login.jpg');
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-register {
+    background-image: url('/images/signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*------------ Right box ------------*/
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+::placeholder {
+    font-size: 16px;
+}
+
+.rounded-4 {
+    border-radius: 20px;
+}
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+
+
+.pointer {
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+    min-height: 100px;
+    background-color: #fef2f2;
+    color: #fff;
+    padding: 1rem 0;
+    /* padding-left: $p; */
+    display: grid;
+    grid-template-columns: 6fr 4fr 3fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
+}
